@@ -1,0 +1,8 @@
+command to start the building process:
+    cmake -B ./build/ -G "Visual Studio 17 2022"
+
+compile command:
+    cmake --build ./build/
+
+command to run the project:
+    .\build\Debug\HTLProject.exe continue-(if needed to add more after this command)
