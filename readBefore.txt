@@ -16,6 +16,7 @@ Explanation of main.cpp file:
     after that  ther is a loop that let you choose what function will be used
     All the funcitons use the reformat video file (.avi | expaet the convert fucntio ofcourse)
 
+I uploaded all the folders for the videos but not sure if it will get create in the git
 
 I uploaded the files without the build files so type this command to make the build files
 command to start the building process:
