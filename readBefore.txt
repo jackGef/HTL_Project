@@ -1,0 +1,30 @@
+The project of H.T.L
+
+Hello.
+I made all of the asked functions exept one that i did not finish
+The one i didn't finish is the trimVidep function 
+i have a problem with that that i tried to fix for something like a day or even more but didn't secceed 
+so after i made the function i gave chatGPT to create the function but his functoin didn't work either
+
+I left both mine and chatCPT functions in the main.cpp file 
+The funciton hase a red command above that indicates wich one is mine and wich one is chatGPT 
+
+Hope i made the function correctly
+
+Explanation of main.cpp file:
+    in the main function i made a declaration to convert the mp4 to an AVI format
+    after that  ther is a loop that let you choose what function will be used
+    All the funcitons use the reformat video file (.avi | expaet the convert fucntio ofcourse)
+
+
+I uploaded the files without the build files so type this command to make the build files
+command to start the building process:
+    cmake -B ./build/ -G "Visual Studio 17 2022"
+
+after you started the build process type this command to compile the main.cpp file
+compile command:
+    cmake --build ./build/
+
+after that run this command to start the main function in the main.cpp file
+command to run the project:
+    .\build\Debug\HTL_Project_ort.exe C:\Users\jack\Desktop\HTL_project_ort\videos\mp4\video.mp4 C:\Users\jack\Desktop\HTL_project_ort\videos\AVI\convertedVideo.avi 
