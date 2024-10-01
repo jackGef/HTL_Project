@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(HTLProject)
+project(HTL_Project_ort)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -36,10 +36,10 @@ link_directories(
 )
 
 # Source files
-add_executable(HTLProject src/main.cpp)
+add_executable(HTL_Project_ort src/main.cpp)
 
 # Link OpenCV and GStreamer libraries
-target_link_libraries(HTLProject
+target_link_libraries(HTL_Project_ort
     ${OpenCV_LIBS}
     ${GSTREAMER_LIBRARIES}
     ${GSTREAMER_APP_LIBRARIES}
